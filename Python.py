@@ -5,7 +5,7 @@ m = int(input("enter the number: "))
 def gcd(n,m):
     fm = []
     fn = []
-    for i in range(1,n+1):
+    for i in range(1,n+1): 
         if n%i==0:
             fn.append(i)
     for i in range(1,m+1):
@@ -17,3 +17,4 @@ def gcd(n,m):
             cf.append(i)
     return cf[-1]
 print("The gcd of",n,"and",m,"is",gcd(n,m))
+
