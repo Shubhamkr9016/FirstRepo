@@ -1,6 +1,6 @@
 # finding the gcd of two numbers.
 
-n = int(input("enter the number: "))   taking input from the user
+n = int(input("enter the number: "))   # taking input from the user
 m = int(input("enter the number: "))  # taking input from the user
 def gcd(n,m):              # defining a function gcd
     fm = []                # creating an empty list
@@ -17,4 +17,3 @@ def gcd(n,m):              # defining a function gcd
             cf.append(i)             # appending the common factors to the list
     return cf[-1]                    # returning the last element of the list
 print("The gcd of",n,"and",m,"is",gcd(n,m))    # printing the gcd of the numbers
-
