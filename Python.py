@@ -1,6 +1,6 @@
 # finding the gcd of two numbers.
 
-n = int(input("enter the number: "))
+n = int(input("enter the number: "))  
 m = int(input("enter the number: "))
 def gcd(n,m):
     fm = []
@@ -16,5 +16,5 @@ def gcd(n,m):
         if i in fm:
             cf.append(i)
     return cf[-1]
-print("The gcd of",n,"and",m,"is",gcd(n,m))
+print("The gcd of",n," and",m, "is", gcd(n,m))
 
