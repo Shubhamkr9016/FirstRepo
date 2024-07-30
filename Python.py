@@ -1,6 +1,6 @@
 # finding the gcd of two numbers.
 
-n = int(input("enter the number: "))  # taking input from the user
+n = int(input("enter the number: "))   taking input from the user
 m = int(input("enter the number: "))  # taking input from the user
 def gcd(n,m):              # defining a function gcd
     fm = []                # creating an empty list
